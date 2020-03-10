@@ -21,8 +21,6 @@ The script assumes that:
 $ zsh-theme <theme-name>
 ```
 
-**NOTE**: You might be asked to enter your password during symlinking.
-
 Then run `exec zsh` to spawn a shell with the newly set theme.
 
 Example:
