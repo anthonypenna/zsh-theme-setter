@@ -13,7 +13,7 @@ $ npm install -g zsh-theme-setter
 
 The script assumes that:
 - you are not using Windows
-- your `.zshrc` is located in your home path (/Users/<user>)
+- your `.zshrc` is located in your home path (/Users/\<user>)
 
 ## Usage
 
