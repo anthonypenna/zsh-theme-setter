@@ -1,6 +1,6 @@
 {
   "name": "zsh-theme-setter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily set your ZSH theme.",
   "main": "index.js",
   "scripts": {
