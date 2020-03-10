@@ -1,0 +1,37 @@
+{
+  "name": "zsh-theme-setter",
+  "version": "0.0.1",
+  "description": "Easily set your ZSH theme.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npm run build:bin && npm run build:link",
+    "build:bin": "tsc",
+    "build:link": "sudo npm link",
+    "clean": "rm -rf bin/",
+    "dev": "npm run build && npm run start",
+    "start": "zsh-theme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonypenna/zsh-theme-setter.git"
+  },
+  "keywords": [
+    "oh",
+    "my",
+    "zsh",
+    "theme"
+  ],
+  "author": "anthonypenna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonypenna/zsh-theme-setter/issues"
+  },
+  "homepage": "https://github.com/anthonypenna/zsh-theme-setter#readme",
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "typescript": "^3.8.3"
+  },
+  "bin": {
+    "zsh-theme": "./bin/index.js"
+  }
+}
